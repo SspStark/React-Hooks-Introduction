@@ -45,15 +45,15 @@ For adding the state to Function Components, import the useState from react and 
 ## Updating State
 We can update the state using ***setter function*** by passing value/callback function as an argument
 
-Syntax: **const [currentState, setterFun] = useState(initialValue)**
+Syntax: `const [currentState, setterFun] = useState(initialValue)`
 
 **Using Value**: Update the state using value if the next state is independent of the previous state
 
-- **setterFun(nextValue)**
+- `setterFun(nextValue)`
 
 **Using Callback function**: Update the state using callback function if the next state is computed based on the previous state
 
-- **setterFun((prevState) => nextState)**
+- `setterFun((prevState) => nextState)`
 
 ### Class Component:
 
