@@ -29,3 +29,12 @@ React provides multiple hooks which can be used for different purposes <br/>
 - **useState()**   -->	 Add State to Function Components <br/>
 - **useEffect()**	 -->   Execute Logic after the Component render <br/>
 - **useContext()** -->   Access the Context value <br/>
+
+## State Hook
+State Hook is a built-in Hook that allows us to add state to the Function Components.
+
+Syntax: **const [currentState, setterFun] = useState(initialValue).**
+
+useState accepts the ***initial value*** as an argument and returns an array with two values: ***the current state*** and a ***function*** to update it.
+
+In the Class Components, the state is an Object. Where in the Function Components, the state can be of ***any data type*** i.e, boolean, number, string, object, etc.
