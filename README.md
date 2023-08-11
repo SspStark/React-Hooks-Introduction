@@ -14,7 +14,7 @@
 - Class Components
   
 ## React Hooks
-React Hooks are special functions that are a new addition to React.
+React Hooks are special functions that are a new addition to React.\
 They allow us to use state and other React features(lifecycle methods, context, etc) in the Function Components
 
 ### Importance of React Hooks
