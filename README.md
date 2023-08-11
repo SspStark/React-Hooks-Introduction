@@ -38,3 +38,28 @@ Syntax: **const [currentState, setterFun] = useState(initialValue).**
 useState accepts the ***initial value*** as an argument and returns an array with two values: ***the current state*** and a ***function*** to update it.
 
 In the Class Components, the state is an Object. Where in the Function Components, the state can be of ***any data type*** i.e, boolean, number, string, object, etc.
+
+## Adding State
+For adding the state to Function Components, import the useState from react and call it inside the component.
+
+## Updating State
+We can update the state using *setter function* by passing value/callback function as an argument
+
+Syntax: **const [currentState, setterFun] = useState(initialValue)**
+
+**Using Value**: Update the state using value if the next state is independent of the previous state
+
+- **setterFun(nextValue)**
+
+**Using Callback function**: Update the state using callback function if the next state is computed based on the previous state
+
+- **setterFun((prevState) => nextState)**
+
+### Class Component:
+
+- When the state updates, the component re-renders only the render method will be called.
+
+### Function Component:
+
+- When the state updates, the entire Component will be re-rendered.
+- Even if the entire component is re-rendered, React will ***preserve*** the state variables between the re-renders.
