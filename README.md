@@ -43,7 +43,7 @@ In the Class Components, the state is an Object. Where in the Function Component
 For adding the state to Function Components, import the useState from react and call it inside the component.
 
 ## Updating State
-We can update the state using *setter function* by passing value/callback function as an argument
+We can update the state using ***setter function*** by passing value/callback function as an argument
 
 Syntax: **const [currentState, setterFun] = useState(initialValue)**
 
