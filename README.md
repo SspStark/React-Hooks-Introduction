@@ -25,6 +25,6 @@ No need of switching between Class & Function Components
 Developers and Companies are gradually adapting to React Hooks
 ### Hooks for Various Purposes
 React provides multiple hooks which can be used for different purposes <br/>
-useState()   -->	 Add State to Function Components
-useEffect()	 -->   Execute Logic after the Component render
-useContext() -->   Access the Context value
+useState()   -->	 Add State to Function Components <br/>
+useEffect()	 -->   Execute Logic after the Component render <br/>
+useContext() -->   Access the Context value <br/>
