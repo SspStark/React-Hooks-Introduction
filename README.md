@@ -8,3 +8,7 @@
   - Adding State
 - State Hook
   - Code Execution Flow
+
+### There are two ways to write React Components.
+- Function Components
+- Class Components
